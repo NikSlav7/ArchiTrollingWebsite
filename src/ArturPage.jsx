@@ -21,7 +21,7 @@ function ArturPage(props){
         <h2 className='ArturLohText ArturLohTextAnimation'>{txt}</h2>
        
     </div>
-        <img className='ArturLohMemePic ArturLohMemePicAnimation' src='https://i.imgflip.com/5sdtja.jpg'/>
+        <img className='ArturLohMemePic ArturLohMemePicAnimation' src={require('../src/pics/triangle.jpeg')}/>
     </div>)
 }
 export default ArturPage;
