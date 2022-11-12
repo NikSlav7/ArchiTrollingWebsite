@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ArchiTrollingWebsite/static/css/main.9960e56b.css",
+    "main.js": "/ArchiTrollingWebsite/static/js/main.2703726c.js",
+    "static/js/787.3d1a711a.chunk.js": "/ArchiTrollingWebsite/static/js/787.3d1a711a.chunk.js",
+    "static/media/nokia.jpeg": "/ArchiTrollingWebsite/static/media/nokia.ffaaf80ba9229f34730f.jpeg",
+    "static/media/nokia1.jpeg": "/ArchiTrollingWebsite/static/media/nokia1.ed9ebfed23af6482a29c.jpeg",
+    "static/media/crush.jpeg": "/ArchiTrollingWebsite/static/media/crush.f011d56cd01ff1229a30.jpeg",
+    "static/media/triangle.jpeg": "/ArchiTrollingWebsite/static/media/triangle.54040de80e6b8e3164e7.jpeg",
+    "static/media/logo.svg": "/ArchiTrollingWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ArchiTrollingWebsite/index.html",
+    "main.9960e56b.css.map": "/ArchiTrollingWebsite/static/css/main.9960e56b.css.map",
+    "main.2703726c.js.map": "/ArchiTrollingWebsite/static/js/main.2703726c.js.map",
+    "787.3d1a711a.chunk.js.map": "/ArchiTrollingWebsite/static/js/787.3d1a711a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9960e56b.css",
+    "static/js/main.2703726c.js"
+  ]
+}
