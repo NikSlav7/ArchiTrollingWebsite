@@ -18,5 +18,5 @@ reportWebVitals();
 
 
 function checkIfNotMain(){
-  if (window.location.pathname !== '/') window.location.pathname    = '/';
+  if (window.location.pathname !== '/ArchiTrollingWebsite/') window.location.pathname    = '/ArchiTrollingWebsite/';
 }
