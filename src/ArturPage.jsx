@@ -6,10 +6,12 @@ function ArturPage(props){
     const[meme, setMeme] = useState('');
 
     function getProps(){
-        if (txt == '') setTxt(props.texts[Math.floor(Math.random() * props.texts.length)]);
-        console.log()
-        if (pic == '') setPic(props.pics[Math.floor(Math.random() * props.pics.length)]);
-        console.log(props);
+        if (pic == '') {
+            let pic = Math.floor(Math.random() * props.pics.length);
+            setPic(props.pics[pic])
+            setTxt(props.texts[pic][ Math.floor(Math.random() * props.texts[pic].length)]);
+           setMeme(props.memes[Math.floor(Math.random() * props.memes.length)]);
+        }
     }
     getProps();
     return (
@@ -21,7 +23,7 @@ function ArturPage(props){
         <h2 className='ArturLohText ArturLohTextAnimation'>{txt}</h2>
        
     </div>
-        <img className='ArturLohMemePic ArturLohMemePicAnimation' src={require('../src/pics/triangle.jpeg')}/>
+        <img className='ArturLohMemePic ArturLohMemePicAnimation' src={meme}/>
     </div>)
 }
 export default ArturPage;
